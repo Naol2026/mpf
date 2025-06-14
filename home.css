@@ -1,0 +1,140 @@
+            body{
+                padding-top:40px;
+                padding-bottom:0px;
+            }
+            .header{
+                display:flex;
+                position:fixed;
+                top:0px;
+                right:0px;
+                left:0px;
+                flex-direction:row;
+                border:solid;
+                border-width-bottom:solid;
+                border-color:gray;
+                justify-content:space-between;
+                background-color:white;
+                color:white;
+                height:40px;
+                align-items:center;
+                border-width:0.5px;
+                z-index:100;
+            }
+            
+            .home{
+                margin-left:10px;
+                background-color:orange;
+                color:white;
+                border-radius:10px;
+                padding:6px;  
+                border:none; 
+                font-weight:bold;             
+            }
+            
+            
+                       
+            .officers{
+                margin-right:10px;
+                border-radius:10px;
+                border:0.5px;
+                padding:6px;
+                font-weight:bold;
+            }
+            
+            .faculty{
+                border-radius:10px;
+                border:0.5px;
+                padding:6px;
+                font-weight:bold;
+            }
+            
+            .logo{
+                height:100px;
+                width:200px;
+                z-index:2;
+            }
+            
+            .logo-div{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                z-index:2;
+            }
+            
+            .header2{
+                text-align:center;
+            }
+            
+            .paragraph{
+                background-color:#e8d5aef0;
+                font-size:17px;
+                margin-left:3.5px;
+                marging-right:3.5px;
+                z-index:100;
+            }
+            
+            .Nestled{
+                font-weight:bold;
+            }
+            
+            .location{
+                height:220px;
+                width:370px;
+                object-fit:cover;
+                z-index:2;
+            }
+            
+            .GPS{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                z-index:2;
+            }
+            
+            .display > img{
+                aspect-ratio:1/1;
+                inline-size:100%;
+            }
+            
+            .display{
+                display:grid;
+                grid-auto-flow:column;
+                overflow-x:auto;
+            }
+            
+            body {
+               display: flex;          /* Important: Enables flexbox layout */
+               flex-direction: column; /* Stack elements vertically */
+               min-height: 100vh;      /* Ensure body takes at least full viewport height */
+               margin: 0;             /* Reset default body margin */
+}
+
+            main {
+              flex: 1;             /* Allow main content to grow and fill available space */
+}
+
+           footer {
+               background-color:orange;
+               color: white;
+               padding: 60px;
+               text-align: center;
+               font-size: 0.9em;
+            }
+
+/* Add this media query to only apply fixed positioning when the content is short */
+          @media (max-content-height: 800px)     { /* Adjust 700px as needed */
+          
+          footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+          }
+}
+            
+            
+            
+       
+            
+            
+
+            
